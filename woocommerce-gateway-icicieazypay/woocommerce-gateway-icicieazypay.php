@@ -115,15 +115,6 @@ $this->form_fields = array(
      
 );
 
-} //END-init_form_fields
-
-      
-
-
-//function aes128Encrypt($str,$key){
-//$block = mcrypt_get_block_size('rijndael_128', 'ecb');
-//$pad = $block - (strlen($str) % $block);
-//$str .= str_repeat(chr($pad), $pad);
-//return base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $key, $str, MCRYPT_MODE_ECB));
-//}
+}
+}}
 ?>
